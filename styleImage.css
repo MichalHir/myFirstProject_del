@@ -1,0 +1,16 @@
+/* styles.css */
+.image{
+    padding: 0 530px;
+    margin: 0 100px;
+    border-style: double; 
+}
+.image2{
+    padding: 0 300px;
+    margin: 0 50px;
+    border-style: double;
+}
+.image3{
+    padding: 0 450px;
+    margin: 0 50px;
+    border-style: double;  
+}

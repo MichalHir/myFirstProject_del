@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styleImage.css">
+    <link rel="stylesheet" href="styleWord.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+
+<body>
+    <p><cite>The quiz</cite> by me.</p>
+    <h1 class="blue">Welcome to the quiz</h1>
+    <p>All you have to do is to answer to your best ability</p>
+    <h2>The questions are</h2>
+    <p>Q1: What is that?</p>
+    <div class="image">
+        <img src="https://picsum.photos/id/18/200/300">
+    </div>
+    <ol>
+        <li>Coffee</li>
+        <li>Grass</li>
+        <li>Dog</li>
+    </ol>
+    <!-- <div class="button">
+        <button type="button">done</button>
+    </div>-->
+    <button class="btn btn-success rounded-pill px-3" type="button">done</button>
+    <p>Q2: What is that?</p>
+    <div class="image">
+        <img src="https://picsum.photos/id/29/200/300">
+    </div>
+    <ol>
+        <li>Coffee</li>
+        <li>Grass</li>
+        <li>Dog</li>
+    </ol>
+    <button class="btn btn-success rounded-pill px-3" type="button">done</button>
+    <div class="image2">
+        <img src="https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2021/04/02155005/Dalmatian-puppy-standing-in-the-grass.jpg"
+            alt="Puppy standing in the grass">
+    </div>
+    <p>Q3: True or false? Dogs are not color-blind. They can see blue and yellow</p>
+    <ol>
+        <li>true</li>
+        <li>false</li>
+    </ol>
+    <button class="btn btn-success rounded-pill px-3" type="button">done</button>
+    <p>Q4: True or false? All puppies are born deaf</p>
+    <ol>
+        <li>true</li>
+        <li>false</li>
+    </ol>
+    <button class="btn btn-success rounded-pill px-3" type="button">done</button>
+    <br> <br>
+    <div class="image3">
+        <img src="25-367x267.jpg" alt="Trees and son behind them">
+    </div>
+    <br> <br>
+    <form id="survey-form">
+        <fieldset>
+            <label id="name-label">Enter your full name:
+                <input id="name" type="text" placeholder="Full name" required>
+            </label>
+            <label id="email-label">Enter your email:
+                <input id="email" type="email" placeholder="Mymail@mail.com" required>
+            </label>
+            <label id="number-label">Enter your age:
+                <input id="number" type="number" min="13" max="100" placeholder="Age" required>
+            </label>
+            <label for="Male"> What is your gender:
+                <label>
+                    <input name="gender" id="male" value="male" type="radio" class="radio"> Male
+                </label>
+                <label for="female">
+                    <input name="gender" id="female" value="female" type="radio" class="radio"> Female
+                </label>
+                <label for="other">
+                    <input name="gender" id="other" value="other" type="radio" class="radio"> Other
+                </label>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label>How many questions did you answer correctly?:
+                <label for="one">
+                    <input name="one question" id="one question-A1" value="1" type="radio" class="radio"> 1
+                </label>
+                <label for="two">
+                    <input name="two questions" id="two questions-A2" value="2" type="radio" class="radio"> 2
+                </label>
+                <label for="three">
+                    <input name="three questions" id="three questions-A3" value="3" type="radio" class="radio"> 3
+                </label>
+                <label for="none">
+                    <input name="none" id="none-A4" value="none" type="radio" class="radio"> 0
+                </label>
+                <label for="didnt try too boring-R5">
+                    <input name="didnt try" id="didnt try-A5" value="didnt try" type="radio" class="radio"> did not try
+                </label>
+            </label>
+        </fieldset>
+        <fieldset>
+            <label id="dropdown-label">How did you hear about the quiz:
+                <select id="dropdown" name="dropdown" required>
+                    <option value="">(select one)</option>
+                    <option value="friend">friend</option>
+                    <option value="social media">social media</option>
+                    <option value="advertisement">advertisement</option>
+                    <option value="other">other</option>
+                </select>
+                <label for="web-imp">Quiz improvement suggestions:
+                    <textarea id="web-imp" name="web-improvement"
+                        placeholder="Please help us improve our website"></textarea>
+                </label>
+            </label>
+            <label for="terms">
+                <input name="terms and conditions" id="terms" type="radio" class="radio" required> I agree to the <a
+                    href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a> and <a
+                    href="https://www.freecodecamp.org/news/privacy-policy/">privacy policies</a>
+            </label>
+        </fieldset>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+    <p id="credit" name="credit" class="credit"> The survey was Created by Bururk</p>
+    <p class="credit">Free Code Camp Project</p>
+    <footer>
+        <div class="icons">
+            <button>
+                <a class="icon-fcc" href="https://www.freecodecamp.org/Bruruk" title="Free Code Camp Profile"
+                    target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-free-code-camp fa-3x"></i></a>
+            </button>
+        </div>
+    </footer>
+    <!--<div class="link">
+        <a href="./mainPage.html">to the main page</a>
+        <br>
+        <a href="https://quizlet.com/">for more quizes click here</a>
+    </div>-->
+    <div class="link">
+        <!--<button type="button">
+             <div class="link"><a href="./mainPage.html">to the main page</a></div> 
+        </button>-->
+        <button type="button"><a href="./mainPage.html">to the main page</a></button>
+        <button type="button"><a href="https://quizlet.com/">for more quizes click here</a></button>
+    </div>
+
+    <!--<a href="http://www.google.com">
+        <button type="button">done</button>
+    </a> -->
+</body>
+
+</html>
